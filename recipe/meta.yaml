@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xnemogcm-{{ version }}.tar.gz
-  sha256: d53b2297adfaa94f1aa2d2b3e238c26e66fdeb9f07af0343194ca9a24dff0807
+  sha256: 2e8686758ecb824592d13c702248325305d62b07f5f53680f054d7c617f59dc7
 
 build:
   noarch: python
