@@ -1,11 +1,11 @@
-About xnemogcm
-==============
+About xnemogcm-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xnemogcm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rcaneill/xnemogcm
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/xnemogcm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Interface to open NEMO global circulation model output dataset and create a xgcm grid.
 
