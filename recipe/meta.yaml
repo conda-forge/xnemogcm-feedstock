@@ -1,5 +1,5 @@
 {% set name = "xnemogcm" %}
-{% set version = "0.4.2" %}
+{% set version = "0.4.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xnemogcm-{{ version }}.tar.gz
-  sha256: 43a515eacfb0660f17042e3ceba35982ba976cf44ce33bab8f1501584b93ddf7
+  sha256: 246dd1d2bcd1f9a4927d6a6e698701038605d1f633a59a750b67d0e03ec3b208
 
 build:
   noarch: python
@@ -18,11 +18,11 @@ requirements:
   host:
     - pip
     - poetry-core >=1.0.0
-    - python >=3.8
+    - python >=3.9
   run:
     - dask-core
     - netcdf4
-    - python >=3.8
+    - python >=3.9
     - xarray
 
 test:
@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - pre-commit
 
 about:
   home: https://github.com/rcaneill/xnemogcm
