@@ -32,6 +32,7 @@ test:
     - pip check
   requires:
     - pip
+    - pre-commit
 
 about:
   home: https://github.com/rcaneill/xnemogcm
