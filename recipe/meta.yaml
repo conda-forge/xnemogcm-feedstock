@@ -1,13 +1,13 @@
 {% set name = "xnemogcm" %}
-{% set version = "0.4.3" %}
+{% set version = "0.5.0.post1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/xnemogcm-{{ version }}.tar.gz
-  sha256: 246dd1d2bcd1f9a4927d6a6e698701038605d1f633a59a750b67d0e03ec3b208
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/xnemogcm-{{ version }}.tar.gz
+  sha256: 3155a247c1033d0ff9459fd2315c944220c224e7a89a1338198cbbe71ab64a88
 
 build:
   noarch: python
