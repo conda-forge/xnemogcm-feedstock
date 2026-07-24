@@ -22,7 +22,7 @@ requirements:
   run:
     - dask-core
     - netcdf4
-    - python >=3.9
+    - python >=3.10
     - xarray
 
 test:
