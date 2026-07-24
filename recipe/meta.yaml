@@ -18,7 +18,7 @@ requirements:
   host:
     - pip
     - uv-build
-    - python >=3.9
+    - python >=3.10
   run:
     - dask-core
     - netcdf4
